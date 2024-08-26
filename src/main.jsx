@@ -11,6 +11,7 @@ import Home from './component/Home.jsx'
 import About from './component/About/About.jsx';
 import Contact_us from './component/Contact_us/Contact_us.jsx';
 import User from './component/User/User.jsx';
+import Github from './component/Github/Github.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path:"user/:userId",
         element:<User/>
+      },
+      {
+        path:"git",
+        element:<Github/>
       }
     ]
   },
